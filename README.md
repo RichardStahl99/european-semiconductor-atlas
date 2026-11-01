@@ -4,6 +4,8 @@ Open, sourced data on Europe's semiconductor supply chain: wafer fabs, back-end
 (assembly, test and packaging) sites and equipment makers in the EU-27, the UK,
 Switzerland and Norway. Every record carries source URLs and a verification date.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23864138.svg)](https://doi.org/10.5281/zenodo.23864138)
+
 **Release 2026.10** · data verified up to 2026-10-26 · licence
 [CC BY 4.0](LICENSE)
 
@@ -94,7 +96,7 @@ The atlas is updated quarterly. Each release is described in a changelog post on
 
 ## Cite
 
-> Stahl, R. (2026). *European Semiconductor Atlas* (Version 2026.10) [Data set]. https://github.com/RichardStahl99/european-semiconductor-atlas
+> Stahl, R. (2026). *European Semiconductor Atlas* (Version 2026.10) [Data set]. https://doi.org/10.5281/zenodo.23864138
 
 See also [`CITATION.cff`](CITATION.cff).
 
