@@ -6,7 +6,7 @@ abstract: "Open, sourced data on Europe's semiconductor supply chain: wafer fabs
 authors:
   - family-names: Stahl
     given-names: Richard
-version: "2026.10"
+version: "2026.10.1"
 date-released: "2026-11-01"
 doi: "10.5281/zenodo.23864138"
 license: CC-BY-4.0
