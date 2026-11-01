@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "European Semiconductor Atlas"
+abstract: "Open, sourced data on Europe's semiconductor supply chain: wafer fabs, back-end sites and equipment makers in the EU-27, the UK, Switzerland and Norway."
+authors:
+  - family-names: Stahl
+    given-names: Richard
+version: "2026.10"
+date-released: "2026-11-01"
+license: CC-BY-4.0
+url: "https://richard-stahl.at/atlas/map/"
+repository: "https://github.com/RichardStahl99/european-semiconductor-atlas"
+keywords:
+  - semiconductors
+  - wafer fabs
+  - Europe
+  - European Chips Act
+  - supply chain
+  - open data

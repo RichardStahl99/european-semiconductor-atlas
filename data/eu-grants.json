@@ -1,0 +1,598 @@
+{
+ "meta": {
+  "source": "CORDIS open data: Horizon 2020 and Horizon Europe projects and participants",
+  "source_urls": [
+   "https://cordis.europa.eu/data/cordis-h2020projects-csv.zip",
+   "https://cordis.europa.eu/data/cordis-HORIZONprojects-csv.zip"
+  ],
+  "licence": "(c) European Union, CC BY 4.0",
+  "cordis_snapshot": "2026-10-02",
+  "unit": "EU contribution (ecContribution), EUR million, summed over 2014-2026 grants; not a cash-payment statement",
+  "project_evidence": "eu-grants-projects.json",
+  "contribution_basis": "Totals use ecContribution; the participant ledger also retains netEcContribution for comparison.",
+  "participation_rows": "One row per operator/programme/project/organisation/role/order; a legal entity can have separate participant and linked-third-party rows. No rows are deduplicated by company name alone.",
+  "chips_ju": "ECSEL (2014-2020), KDT (2021-2023) and Chips JU (2024-) projects",
+  "per_operator_only": "Grants go to legal entities, not to fabs; never attribute them to one site. Totals include every entity of the group in the grant data, also outside Europe."
+ },
+ "operators": {
+  "ASM International": {
+   "all_horizon_eur_million": 0.5,
+   "chips_ju_eur_million": 0.5,
+   "projects": 3,
+   "chips_ju_projects": 2,
+   "legal_entities": [
+    "ASM BELGIUM NV (Heverlee, BE)",
+    "ASM MICROCHEMISTRY OY (Helsinki, FI)"
+   ]
+  },
+  "ASML": {
+   "all_horizon_eur_million": 59.4,
+   "chips_ju_eur_million": 59.4,
+   "projects": 25,
+   "chips_ju_projects": 15,
+   "legal_entities": [
+    "ASML BELGIUM BVBA (Essen, BE)",
+    "ASML BERLIN GMBH (Berlin, DE)",
+    "ASML NETHERLANDS B.V. (Veldhoven, NL)"
+   ]
+  },
+  "AZUR SPACE Solar Power": {
+   "all_horizon_eur_million": 3.3,
+   "chips_ju_eur_million": 0.0,
+   "projects": 6,
+   "chips_ju_projects": 0,
+   "legal_entities": [
+    "AZUR SPACE SOLAR POWER GMBH (Heilbronn, DE)"
+   ]
+  },
+  "Aixtron": {
+   "all_horizon_eur_million": 21.9,
+   "chips_ju_eur_million": 4.6,
+   "projects": 28,
+   "chips_ju_projects": 8,
+   "legal_entities": [
+    "AIXTRON LIMITED (Cambridge, UK)",
+    "AIXTRON SE (Herzogenrath, DE)"
+   ]
+  },
+  "Analog Devices": {
+   "all_horizon_eur_million": 2.2,
+   "chips_ju_eur_million": 0.4,
+   "projects": 10,
+   "chips_ju_projects": 3,
+   "legal_entities": [
+    "ANALOG DEVICES INTERNATIONAL UNLIMITED COMPANY (Limerick, IE)",
+    "Analog Devices, S.L.U. (Valencia, ES)"
+   ]
+  },
+  "BelGaN": {
+   "all_horizon_eur_million": 5.0,
+   "chips_ju_eur_million": 3.1,
+   "projects": 5,
+   "chips_ju_projects": 4,
+   "legal_entities": [
+    "BELGAN BV (Oudenaarde, BE)"
+   ]
+  },
+  "Besi": {
+   "all_horizon_eur_million": 6.0,
+   "chips_ju_eur_million": 5.0,
+   "projects": 17,
+   "chips_ju_projects": 16,
+   "legal_entities": [
+    "BESI AUSTRIA GMBH (Radfeld, AT)",
+    "BESI NETHERLANDS BV (Duiven, NL)"
+   ]
+  },
+  "CEA-Leti": {
+   "all_horizon_eur_million": 1331.6,
+   "chips_ju_eur_million": 338.6,
+   "projects": 1277,
+   "chips_ju_projects": 71,
+   "legal_entities": [
+    "COMMISSARIAT A L ENERGIE ATOMIQUE ET AUX ENERGIES ALTERNATIVES (Paris 15, )",
+    "COMMISSARIAT A L ENERGIE ATOMIQUE ET AUX ENERGIES ALTERNATIVES (Paris, FR)"
+   ],
+   "scope_note": "all of CEA, not only Leti"
+  },
+  "Carl Zeiss SMT": {
+   "all_horizon_eur_million": 38.7,
+   "chips_ju_eur_million": 38.4,
+   "projects": 12,
+   "chips_ju_projects": 11,
+   "legal_entities": [
+    "CARL ZEISS SMT GMBH (Oberkochen, DE)"
+   ]
+  },
+  "Coherent (ex-II-VI)": {
+   "all_horizon_eur_million": 5.0,
+   "chips_ju_eur_million": 1.4,
+   "projects": 13,
+   "chips_ju_projects": 2,
+   "legal_entities": [
+    "Coherent Scotland (Glasgow, UK)",
+    "FINISAR GERMANY GMBH (Berlin, DE)",
+    "Finisar (Berlin, DE)",
+    "Finisar Sweden AB (Kista, SE)",
+    "II-VI ADVANCED MATERIALS INC (Pine Brook Nj, US)",
+    "II-VI GMBH (Weiterstadt, DE)",
+    "II-VI KISTA AB (Kista, SE)"
+   ]
+  },
+  "Ferdinand-Braun-Institut (FBH)": {
+   "all_horizon_eur_million": 67.4,
+   "chips_ju_eur_million": 0.0,
+   "projects": 118,
+   "chips_ju_projects": 0,
+   "legal_entities": [
+    "FORSCHUNGSVERBUND BERLIN EV (Berlin, DE)"
+   ],
+   "scope_note": "all Forschungsverbund Berlin institutes"
+  },
+  "Fraunhofer": {
+   "all_horizon_eur_million": 1264.5,
+   "chips_ju_eur_million": 145.2,
+   "projects": 1871,
+   "chips_ju_projects": 101,
+   "legal_entities": [
+    "FRAUNHOFER AUSTRIA RESEARCH GMBH (Wien, AT)",
+    "FRAUNHOFER GESELLSCHAFT ZUR FORDERUNG DER ANGEWANDTEN FORSCHUNG EV (Munchen, DE)",
+    "FRAUNHOFER ITALIA RESEARCH SCARL (Bolzano, IT)",
+    "FRAUNHOFER UK RESEARCH LIMITED (Glasgow, UK)",
+    "Fraunhofer IGD, Kaiserslautern, DE (Berlin, )",
+    "Fraunhofer Institute for Intelligent Analysis and Information Systems IAIS (Berlin, )",
+    "Fraunhofer Society (Munich, DE)",
+    "Fraunhofer-Institute for Manufacturing and Automation (Stuttgart, DE)",
+    "Fraunhofer-Institute for Wind Energy and Energy System Technology (Bremerhaven, DE)"
+   ],
+   "scope_note": "all Fraunhofer institutes"
+  },
+  "Freiberger Compound Materials": {
+   "all_horizon_eur_million": 1.3,
+   "chips_ju_eur_million": 1.1,
+   "projects": 4,
+   "chips_ju_projects": 3,
+   "legal_entities": [
+    "FREIBERGER COMPOUND MATERIALS GMBH (Freiberg, DE)"
+   ]
+  },
+  "GlobalFoundries": {
+   "all_horizon_eur_million": 5.4,
+   "chips_ju_eur_million": 4.5,
+   "projects": 11,
+   "chips_ju_projects": 9,
+   "legal_entities": [
+    "GLOBALFOUNDRIES Dresden Module One LLC & Co. KG (Dresden, DE)"
+   ]
+  },
+  "IHP (Leibniz)": {
+   "all_horizon_eur_million": 39.0,
+   "chips_ju_eur_million": 4.8,
+   "projects": 54,
+   "chips_ju_projects": 3,
+   "legal_entities": [
+    "IHP GMBH - LEIBNIZ INSTITUTE FOR HIGH PERFORMANCE MICROELECTRONICS (Frankfurt Oder, DE)"
+   ]
+  },
+  "IQE": {
+   "all_horizon_eur_million": 1.4,
+   "chips_ju_eur_million": 0.0,
+   "projects": 7,
+   "chips_ju_projects": 0,
+   "legal_entities": [
+    "IQE Inc (Bethlehem, )",
+    "IQE Silicon Compounds Ltd (Cardiff , St Mellons, UK)",
+    "IQE plc (Cardiff, UK)"
+   ]
+  },
+  "Infineon Technologies": {
+   "all_horizon_eur_million": 192.4,
+   "chips_ju_eur_million": 134.0,
+   "projects": 165,
+   "chips_ju_projects": 68,
+   "legal_entities": [
+    "INFINEON TECHNOLOGIES AG (Neubiberg, DE)",
+    "INFINEON TECHNOLOGIES AUSTRIA  AG (Villach, AT)",
+    "INFINEON TECHNOLOGIES BIPOLAR GMBH& CO. KG (Warstein, DE)",
+    "INFINEON TECHNOLOGIES CEGLED TELJESITMENYFELVEZETOKET GYARTO KORLATOLT FELELOSSEGU TARSASAG (Cegled, HU)",
+    "INFINEON TECHNOLOGIES DRESDEN AG & Co. KG (Dresden, DE)",
+    "INFINEON TECHNOLOGIES DUISBURG GMBH& CO. KG (Duisburg, DE)",
+    "INFINEON TECHNOLOGIES INDIA PRIVATE LIMITED (Bengaluru North, IN)",
+    "INFINEON TECHNOLOGIES IRELAND LIMITED (Dublin, IE)",
+    "INFINEON TECHNOLOGIES IT-SERVICES GMBH (Klagenfurt Am Wörthersee, AT)",
+    "INFINEON TECHNOLOGIES ITALIA SRL (Milano, IT)",
+    "INFINEON TECHNOLOGIES LINZ GMBH & CO KG (Linz, AT)",
+    "INFINEON TECHNOLOGIES MANUFACTURING PORTO, UNIPESSOAL LDA (Vila Do Conde, PT)",
+    "Infineon Technologies Romania and CO. Societate in Comandita Simpla (Bucharest, RO)"
+   ]
+  },
+  "Instituto de Microelectrónica de Barcelona , CSIC": {
+   "all_horizon_eur_million": 799.6,
+   "chips_ju_eur_million": 11.3,
+   "projects": 1786,
+   "chips_ju_projects": 28,
+   "legal_entities": [
+    "AGENCIA ESTATAL CONSEJO SUPERIOR DE INVESTIGACIONES CIENTIFICAS (Madrid, ES)"
+   ],
+   "scope_note": "all of CSIC"
+  },
+  "Intel": {
+   "all_horizon_eur_million": 23.3,
+   "chips_ju_eur_million": 0.1,
+   "projects": 60,
+   "chips_ju_projects": 6,
+   "legal_entities": [
+    "INTEL BENELUX BV (Schiphol Rijk, NL)",
+    "INTEL CORPORATION (Kontich, BE)",
+    "INTEL CORPORATION (UK) LIMITED (Swindon, UK)",
+    "INTEL CORPORATION IBERIA SA (Madrid, ES)",
+    "INTEL CORPORATION ITALIA SPA (Milano, IT)",
+    "INTEL CORPORATION SAS (Meudon, FR)",
+    "INTEL DEUTSCHLAND GMBH (Feldkirchen, DE)",
+    "INTEL ELECTRONICS LTD (Kiryat Gat, IL)",
+    "INTEL ISRAEL (74) LTD (Haifa, IL)",
+    "INTEL RESEARCH AND DEVELOPMENT IRELAND LIMITED (Leixlip, IE)",
+    "INTEL TECHNOLOGY POLAND SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA (Gdansk, PL)",
+    "Intel Corporation (Santa Clara, US)",
+    "Intel Corporation (Wilmington New Castle De, US)"
+   ],
+   "scope_note": "all Intel entities in the grant data, also in Israel and the US"
+  },
+  "KETEK": {
+   "all_horizon_eur_million": 0.1,
+   "chips_ju_eur_million": 0.1,
+   "projects": 1,
+   "chips_ju_projects": 1,
+   "legal_entities": [
+    "KETEK GMBH HALBLEITER-UND REINRAUMTECHNIK (Munchen, DE)"
+   ]
+  },
+  "LFoundry": {
+   "all_horizon_eur_million": 1.0,
+   "chips_ju_eur_million": 0.6,
+   "projects": 6,
+   "chips_ju_projects": 2,
+   "legal_entities": [
+    "LFOUNDRY SRL (Avezzano Aq, IT)"
+   ]
+  },
+  "LIGENTEC": {
+   "all_horizon_eur_million": 10.5,
+   "chips_ju_eur_million": 3.2,
+   "projects": 20,
+   "chips_ju_projects": 3,
+   "legal_entities": [
+    "LIGENTEC FRANCE (Corbeil-Essonnes, FR)",
+    "LIGENTEC SA (Ecublens, CH)"
+   ]
+  },
+  "MACOM / OMMIC": {
+   "all_horizon_eur_million": 3.6,
+   "chips_ju_eur_million": 0.0,
+   "projects": 7,
+   "chips_ju_projects": 0,
+   "legal_entities": [
+    "OMMIC SAS (Limeil Brevannes, FR)"
+   ]
+  },
+  "MEMC / GlobalWafers": {
+   "all_horizon_eur_million": 0.4,
+   "chips_ju_eur_million": 0.0,
+   "projects": 1,
+   "chips_ju_projects": 0,
+   "legal_entities": [
+    "MEMC ELECTRONIC MATERIALS SPA (Novara, IT)"
+   ]
+  },
+  "MESA+ Institute for Nanotechnology, University of Twente": {
+   "all_horizon_eur_million": 261.8,
+   "chips_ju_eur_million": 10.5,
+   "projects": 421,
+   "chips_ju_projects": 12,
+   "legal_entities": [
+    "UNIVERSITEIT TWENTE (Enschede, NL)"
+   ],
+   "scope_note": "all of the University of Twente"
+  },
+  "Murata": {
+   "all_horizon_eur_million": 3.2,
+   "chips_ju_eur_million": 2.5,
+   "projects": 14,
+   "chips_ju_projects": 13,
+   "legal_entities": [
+    "MURATA ELECTRONICS OY (Vantaa, FI)",
+    "MURATA INTEGRATED PASSIVE SOLUTIONS (Caen, FR)"
+   ]
+  },
+  "NXP Semiconductors": {
+   "all_horizon_eur_million": 48.1,
+   "chips_ju_eur_million": 32.8,
+   "projects": 82,
+   "chips_ju_projects": 39,
+   "legal_entities": [
+    "NXP SEMICONDUCTORS AUSTRIA GMBH & CO KG (Gratkorn, AT)",
+    "NXP SEMICONDUCTORS BELGIUM NV (Leuven, BE)",
+    "NXP SEMICONDUCTORS CZECH REPUBLIC SRO (Roznov Pod Radhostem, CZ)",
+    "NXP SEMICONDUCTORS FRANCE (Gif-Sur-Yvette, FR)",
+    "NXP SEMICONDUCTORS GERMANY GMBH (Hamburg, DE)",
+    "NXP SEMICONDUCTORS NETHERLANDS BV (Eindhoven, NL)",
+    "NXP SEMICONDUCTORS ROMANIA SRL (Bucuresti, RO)"
+   ]
+  },
+  "Nexperia": {
+   "all_horizon_eur_million": 1.5,
+   "chips_ju_eur_million": 1.0,
+   "projects": 9,
+   "chips_ju_projects": 6,
+   "legal_entities": [
+    "NEXPERIA BV (Nijmegen, NL)",
+    "NEXPERIA GERMANY GMBH (Hamburg, DE)"
+   ]
+  },
+  "Okmetic": {
+   "all_horizon_eur_million": 1.7,
+   "chips_ju_eur_million": 1.7,
+   "projects": 12,
+   "chips_ju_projects": 12,
+   "legal_entities": [
+    "OKMETIC OY (Vantaa, FI)"
+   ]
+  },
+  "Plessey Semiconductors": {
+   "all_horizon_eur_million": 0.5,
+   "chips_ju_eur_million": 0.0,
+   "projects": 1,
+   "chips_ju_projects": 0,
+   "legal_entities": [
+    "PLESSEY SEMICONDUCTORS LIMITED (Plymouth, UK)"
+   ]
+  },
+  "Pragmatic Semiconductor": {
+   "all_horizon_eur_million": 3.0,
+   "chips_ju_eur_million": 0.0,
+   "projects": 9,
+   "chips_ju_projects": 0,
+   "legal_entities": [
+    "PRAGMATIC SEMICONDUCTOR LIMITED (Cleveland, UK)"
+   ]
+  },
+  "Q.ANT": {
+   "all_horizon_eur_million": 0.2,
+   "chips_ju_eur_million": 0.0,
+   "projects": 1,
+   "chips_ju_projects": 0,
+   "legal_entities": [
+    "Q.ANT GMBH (Stuttgart, DE)"
+   ]
+  },
+  "Robert Bosch": {
+   "all_horizon_eur_million": 94.9,
+   "chips_ju_eur_million": 27.1,
+   "projects": 165,
+   "chips_ju_projects": 33,
+   "legal_entities": [
+    "ROBERT BOSCH (FRANCE) SAS (Saint Ouen, FR)",
+    "ROBERT BOSCH BV (Boxtel, NL)",
+    "ROBERT BOSCH GMBH (Gerlingen-Schillerhoehe, DE)",
+    "ROBERT BOSCH SEMICONDUCTOR MANUFACTURING DRESDEN GMBH (Dresden, DE)"
+   ],
+   "scope_note": "the whole Bosch group (all fields)"
+  },
+  "SINTEF": {
+   "all_horizon_eur_million": 334.5,
+   "chips_ju_eur_million": 3.2,
+   "projects": 468,
+   "chips_ju_projects": 14,
+   "legal_entities": [
+    "SINTEF AS (Trondheim, NO)"
+   ]
+  },
+  "SMART Photonics": {
+   "all_horizon_eur_million": 11.6,
+   "chips_ju_eur_million": 3.0,
+   "projects": 19,
+   "chips_ju_projects": 3,
+   "legal_entities": [
+    "SMART PHOTONICS BV (Eindhoven, NL)"
+   ]
+  },
+  "STMicroelectronics": {
+   "all_horizon_eur_million": 158.2,
+   "chips_ju_eur_million": 119.9,
+   "projects": 163,
+   "chips_ju_projects": 61,
+   "legal_entities": [
+    "STMICROELECTRONICS (ALPS) SAS (Grenoble, FR)",
+    "STMICROELECTRONICS (GRAND OUEST) SAS (Le Mans, FR)",
+    "STMICROELECTRONICS (RESEARCH & DEVELOPMENT) LTD (Marlow, UK)",
+    "STMICROELECTRONICS (TOURS) SAS (Tours, FR)",
+    "STMICROELECTRONICS CROLLES 2 SAS (Crolles, FR)",
+    "STMICROELECTRONICS DESIGN AND APPLICATION SRO (Praha, CZ)",
+    "STMICROELECTRONICS FRANCE (Montrouge, FR)",
+    "STMICROELECTRONICS GRENOBLE 2 SAS (Grenoble, FR)",
+    "STMICROELECTRONICS ROUSSET SAS (Rousset, FR)",
+    "STMICROELECTRONICS SILICON CARBIDE AB (Norkoping, SE)",
+    "STMICROELECTRONICS SRL (Agrate Brianza, IT)",
+    "STMicroelectronics (Malta) Ltd (Kirkop, MT)"
+   ]
+  },
+  "Safran Timing": {
+   "all_horizon_eur_million": 0.8,
+   "chips_ju_eur_million": 0.0,
+   "projects": 1,
+   "chips_ju_projects": 0,
+   "legal_entities": [
+    "SAFRAN TIMING TECHNOLOGIES SA (Neuchatel, CH)"
+   ]
+  },
+  "Silex Microsystems": {
+   "all_horizon_eur_million": 3.9,
+   "chips_ju_eur_million": 0.9,
+   "projects": 5,
+   "chips_ju_projects": 2,
+   "legal_entities": [
+    "SILEX MICROSYSTEMS AB (Jarvalla, SE)"
+   ]
+  },
+  "Siltronic": {
+   "all_horizon_eur_million": 3.1,
+   "chips_ju_eur_million": 3.1,
+   "projects": 11,
+   "chips_ju_projects": 11,
+   "legal_entities": [
+    "SILTRONIC AG (Munchen, DE)"
+   ]
+  },
+  "Soitec": {
+   "all_horizon_eur_million": 38.9,
+   "chips_ju_eur_million": 35.8,
+   "projects": 33,
+   "chips_ju_projects": 23,
+   "legal_entities": [
+    "SOITEC BELGIUM NV (Hasselt, BE)",
+    "SOITEC LAB (Bernin, FR)",
+    "SOITEC SA (Bernin, FR)"
+   ]
+  },
+  "TRUMPF": {
+   "all_horizon_eur_million": 3.4,
+   "chips_ju_eur_million": 1.7,
+   "projects": 6,
+   "chips_ju_projects": 2,
+   "legal_entities": [
+    "TRUMPF GmbH + Co. KG (Ditzingen, DE)",
+    "TRUMPF LASER GMBH (Schramberg, DE)",
+    "TRUMPF LASERSYSTEMS FOR SEMICONDUCTOR MANUFACTORING GMBH (Ditzingen, DE)",
+    "TRUMPF WERKZEUGMASCHINEN SE + COKG (Ditzingen, DE)"
+   ]
+  },
+  "TRUMPF Photonic Components": {
+   "all_horizon_eur_million": 0.0,
+   "chips_ju_eur_million": 0.0,
+   "projects": 1,
+   "chips_ju_projects": 1,
+   "legal_entities": [
+    "TRUMPF PHOTONIC COMPONENTS BV (Eindhoven, NL)"
+   ]
+  },
+  "Texas Instruments": {
+   "all_horizon_eur_million": 0.0,
+   "chips_ju_eur_million": 0.0,
+   "projects": 1,
+   "chips_ju_projects": 0,
+   "legal_entities": [
+    "TEXAS INSTRUMENTS DEUTSCHLAND GMBH (Freising, DE)"
+   ]
+  },
+  "Topsil GlobalWafers": {
+   "all_horizon_eur_million": 0.7,
+   "chips_ju_eur_million": 0.0,
+   "projects": 3,
+   "chips_ju_projects": 0,
+   "legal_entities": [
+    "TOPSIL GLOBALWAFERS AS (Frederikssund, DK)"
+   ]
+  },
+  "United Monolithic Semiconductors (UMS)": {
+   "all_horizon_eur_million": 2.6,
+   "chips_ju_eur_million": 1.9,
+   "projects": 7,
+   "chips_ju_projects": 4,
+   "legal_entities": [
+    "UNITED MONOLITHIC SEMICONDUCTORS GMBH (Ulm, DE)",
+    "UNITED MONOLITHIC SEMICONDUCTORS SAS (Villebon Sur Yvette, FR)"
+   ]
+  },
+  "VIGO Photonics": {
+   "all_horizon_eur_million": 5.9,
+   "chips_ju_eur_million": 0.0,
+   "projects": 15,
+   "chips_ju_projects": 0,
+   "legal_entities": [
+    "VIGO PHOTONICS SPOLKA AKCYJNA (Ozarow Mazowiecki, PL)"
+   ]
+  },
+  "VTT / Micronova": {
+   "all_horizon_eur_million": 529.7,
+   "chips_ju_eur_million": 34.3,
+   "projects": 772,
+   "chips_ju_projects": 49,
+   "legal_entities": [
+    "TEKNOLOGIAN TUTKIMUSKESKUS VTT OY (Espoo, FI)"
+   ]
+  },
+  "Vishay Intertechnology": {
+   "all_horizon_eur_million": 0.1,
+   "chips_ju_eur_million": 0.1,
+   "projects": 1,
+   "chips_ju_projects": 1,
+   "legal_entities": [
+    "VISHAY ELECTRONIC GMBH (Selb, DE)"
+   ]
+  },
+  "X-FAB": {
+   "all_horizon_eur_million": 12.7,
+   "chips_ju_eur_million": 8.7,
+   "projects": 20,
+   "chips_ju_projects": 11,
+   "legal_entities": [
+    "X-FAB Dresden GmbH & Co. KG (Dresden, DE)",
+    "X-FAB FRANCE (Corbeil Essonnes Cedex, FR)",
+    "X-FAB GLOBAL SERVICES GMBH (Erfurt, DE)",
+    "X-FAB MEMS FOUNDRY GmbH (Erfurt, DE)",
+    "X-FAB SARAWAK SDN BHD (Kuching Sarawak, MY)",
+    "X-FAB SEMICONDUCTOR FOUNDRIES GMBH (Erfurt, DE)"
+   ]
+  },
+  "ams OSRAM": {
+   "all_horizon_eur_million": 8.9,
+   "chips_ju_eur_million": 3.5,
+   "projects": 18,
+   "chips_ju_projects": 7,
+   "legal_entities": [
+    "AMS-OSRAM AG (Premstatten, AT)",
+    "AMS-OSRAM INTERNATIONAL GMBH (Regensburg, DE)"
+   ]
+  },
+  "imec": {
+   "all_horizon_eur_million": 876.2,
+   "chips_ju_eur_million": 594.5,
+   "projects": 505,
+   "chips_ju_projects": 90,
+   "legal_entities": [
+    "IMEC GERMANY GMBH (Heilbronn, DE)",
+    "INTERUNIVERSITAIR MICRO-ELECTRONICA CENTRUM (Leuven, BE)",
+    "STICHTING IMEC NEDERLAND (Eindhoven, NL)"
+   ]
+  },
+  "nanoPHAB B.V": {
+   "all_horizon_eur_million": 0.2,
+   "chips_ju_eur_million": 0.0,
+   "projects": 1,
+   "chips_ju_projects": 0,
+   "legal_entities": [
+    "NANOPHAB B.V. (Eindhoven, NL)"
+   ]
+  },
+  "nanoplus Nanosystems": {
+   "all_horizon_eur_million": 5.6,
+   "chips_ju_eur_million": 0.0,
+   "projects": 7,
+   "chips_ju_projects": 0,
+   "legal_entities": [
+    "NANOPLUS ADVANCED PHOTONICS GERBRUNN GMBH (Gerbrunn, DE)",
+    "NANOPLUS NANOSYSTEMS AND TECHNOLOGIES GMBH (Gerbrunn, DE)"
+   ]
+  },
+  "onsemi": {
+   "all_horizon_eur_million": 0.2,
+   "chips_ju_eur_million": 0.2,
+   "projects": 3,
+   "chips_ju_projects": 2,
+   "legal_entities": [
+    "ON SEMICONDUCTOR CZECH REPUBLIC SRO (Roznov Pod Radhostem, CZ)",
+    "ON SEMICONDUCTOR TECHNOLOGY (Mechelen, BE)"
+   ]
+  }
+ }
+}

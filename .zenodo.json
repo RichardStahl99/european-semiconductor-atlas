@@ -1,0 +1,35 @@
+{
+  "title": "European Semiconductor Atlas",
+  "upload_type": "dataset",
+  "description": "<p>Open, sourced data on Europe's semiconductor supply chain in the EU-27, the UK, Switzerland and Norway: 127 wafer-fab records at 101 operator campuses, 44 back-end (assembly, test and packaging) sites, 89 equipment sites, and EU research-grant contributions for 54 operators from CORDIS. Every record carries source URLs and a verification date; ownership, funding and capacity carry field-level sources. Funding amounts are recorded approvals, not payments.</p><p>Interactive map and documentation: <a href=\"https://richard-stahl.at/atlas/map/\">richard-stahl.at/atlas/map/</a></p>",
+  "creators": [
+    {
+      "name": "Stahl, Richard"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "semiconductors",
+    "wafer fabs",
+    "Europe",
+    "European Chips Act",
+    "semiconductor supply chain",
+    "state aid",
+    "open data",
+    "GeoJSON"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://richard-stahl.at/atlas/map/",
+      "relation": "isDocumentedBy",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://richard-stahl.at/atlas/about-the-atlas/",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-other"
+    }
+  ],
+  "version": "2026.10"
+}
